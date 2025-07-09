@@ -1,12 +1,17 @@
-# React + Vite
+# ReactTanStack Query(React Query)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+TanStack Query (formerly React Query) is a powerful data-fetching library for React. It helps you fetch, cache, synchronize, and update server state in your React applications effortlessly. It supports features like caching, background updates, pagination, optimistic updates, and more—making data management simple and reliable.
 
-Currently, two official plugins are available:
+## Advantages of TanStack Query
+Automatic Caching: Saves and reuses fetched data to reduce unnecessary network requests.
+Background Fetching: Keeps data fresh by automatically refetching in the background.
+Server State Management: Makes managing server data predictable and easy, reducing boilerplate code.
+Built-in Pagination & Infinite Queries: Simplifies implementing pagination and infinite scrolling.
+Optimistic Updates: Allows UI to update immediately while awaiting server confirmation.
+Error Handling: Provides easy, consistent ways to handle loading and error states.
+Devtools Support: Includes helpful developer tools to inspect and debug queries.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+## You can also read more : (https://tanstack.com/start/latest)
+## Youttube Source : Thapa Teachnical
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
